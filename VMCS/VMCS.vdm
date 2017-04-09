@@ -1,0 +1,47 @@
+<cm:consulmodel xmlns:cm="http://www.pure-systems.com/consul/model" cm:id="ic_WcE74ZXr8cxF13" cm:version="1.5" cm:type="ps:vdm">
+  <cm:head>
+    <cm:properties>
+      <cm:property cm:id="iAOH3dxlnG5kLL3A5" cm:type="ps:string" cm:invisible="true" cm:name="ps:name">
+        <cm:constant cm:id="ign5QGTWFvNAOtQXJ" cm:type="ps:string">VMCSVariant</cm:constant>
+      </cm:property>
+      <cm:property cm:id="ixl-yZV_Cx8gqu6II" cm:type="ps:string" cm:invisible="true" cm:name="ps:author">
+        <cm:constant cm:id="iLeldpxKSePaJ0gs4" cm:type="ps:string">Oscar</cm:constant>
+      </cm:property>
+      <cm:property cm:id="i_koXTO6g5m0CPhim" cm:type="ps:string" cm:invisible="true" cm:name="ps:version">
+        <cm:constant cm:id="iLxnSo6AspBgSJkSS" cm:type="ps:string">1.0</cm:constant>
+      </cm:property>
+      <cm:property cm:id="iU88XDrqbdWDDOtDA" cm:type="ps:datetime" cm:invisible="true" cm:name="ps:created">
+        <cm:constant cm:id="iiwPg7da3m2AK-kYS" cm:type="ps:datetime">2017-02-24T10:56:00.037Z</cm:constant>
+      </cm:property>
+      <cm:property cm:id="iwQXNXK0iAi4FMb5B" cm:type="ps:mimetype" cm:invisible="true" cm:name="ps:DescriptionType">
+        <cm:constant cm:id="iaDOtBHbetRodgcqa" cm:type="ps:mimetype">text/html</cm:constant>
+      </cm:property>
+    </cm:properties>
+  </cm:head>
+  <cm:elements>
+    <cm:element cm:id="icQeobO9tW9bnvpya" cm:type="ps:selected" cm:class="ps:selection">
+      <cm:relations cm:id="i_JzLuB5j48wxz6vv" cm:class="ps:references">
+        <cm:relation cm:id="iBVDA2aBRvzN83Cw9" cm:type="ps:references">
+          <cm:target cm:id="idtYWwnnqAKXAc_1w">i2RFrq5J-Q1FmclLA/ia_zWxeEeHJpEHYDa</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iqJXkQAjWGTefY2Yl" cm:type="ps:string" cm:invisible="true" cm:name="ps:selector">
+          <cm:constant cm:id="iR2ybJhaBK62RZRDQ" cm:type="ps:string">ps:auto</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="ijxddq0cAA9djwAwp" cm:type="ps:selected" cm:class="ps:selection">
+      <cm:relations cm:id="ijOjd22NI_xVE2nSx" cm:class="ps:references">
+        <cm:relation cm:id="i7cDzXxMGDxcYLFFd" cm:type="ps:references">
+          <cm:target cm:id="i09T6SKNtECstcZ3o">iPRh7szX0BDDi7PSn/iB7s3F6WOxBIITkRR</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="ixpLTh3C34fbi_dcN" cm:type="ps:string" cm:invisible="true" cm:name="ps:selector">
+          <cm:constant cm:id="iDZhlqOtkzzzvlfmW" cm:type="ps:string">ps:auto</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+  </cm:elements>
+</cm:consulmodel>

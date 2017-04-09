@@ -1,0 +1,39 @@
+<cm:consulmodel xmlns:cm="http://www.pure-systems.com/consul/model" cm:id="i2RFrq5J-Q1FmclLA" cm:version="1.5" cm:type="ps:ccfm">
+  <cm:head>
+    <cm:properties>
+      <cm:property cm:id="ifnZ7xKS3rHanedu4" cm:type="ps:string" cm:invisible="true" cm:name="ps:name">
+        <cm:constant cm:id="if6R9UtZC_oy49a04" cm:type="ps:string">VMCSFamily</cm:constant>
+      </cm:property>
+      <cm:property cm:id="i4xtwFTisdZh7NYSa" cm:type="ps:string" cm:invisible="true" cm:name="ps:author">
+        <cm:constant cm:id="in2tATqFEfjpib0G-" cm:type="ps:string">Oscar</cm:constant>
+      </cm:property>
+      <cm:property cm:id="i61Of3AFiVt06sXnZ" cm:type="ps:string" cm:invisible="true" cm:name="ps:version">
+        <cm:constant cm:id="iE-9pfQc0BjUW-ejD" cm:type="ps:string">1.0</cm:constant>
+      </cm:property>
+      <cm:property cm:id="iiC7R9Y5-FNiU-vdD" cm:type="ps:datetime" cm:invisible="true" cm:name="ps:created">
+        <cm:constant cm:id="iRspm6kSMLgTJJwmM" cm:type="ps:datetime">2017-02-24T10:55:58.694Z</cm:constant>
+      </cm:property>
+      <cm:property cm:id="iZfBNuVdDJw99SsQL" cm:type="ps:mimetype" cm:invisible="true" cm:name="ps:DescriptionType">
+        <cm:constant cm:id="iAJQ7-UkTDcjNP1fU" cm:type="ps:mimetype">text/html</cm:constant>
+      </cm:property>
+    </cm:properties>
+  </cm:head>
+  <cm:elements cm:rootid="ia_zWxeEeHJpEHYDa">
+    <cm:element cm:id="ia_zWxeEeHJpEHYDa" cm:name="VMCSFamily" cm:type="ps:family" cm:class="ps:family" cm:default="on">
+      <cm:properties>
+        <cm:property cm:id="iPXRcnhirgL6kh12j" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="ifzRGerFzUJE3mtrW" cm:type="ps:string">Oscar</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ijN-CCajicGQpcko-" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iFBQCS71lPTxuojkm" cm:type="ps:datetime">2017-02-24T10:55:58.694Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i4sPyVLKkPHOTxP8L" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="is-bibTylLuhi3nsq" cm:type="ps:string">Oscar</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iFurytSjEveaQi4dh" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iah4uwQkjyWHP1aBl" cm:type="ps:datetime">2017-02-24T10:55:58.694Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+  </cm:elements>
+</cm:consulmodel>
