@@ -21,8 +21,13 @@
   <cm:elements cm:rootid="iB7s3F6WOxBIITkRR">
     <cm:element cm:id="iB7s3F6WOxBIITkRR" cm:name="VMCSFeatures" cm:type="ps:feature" cm:class="ps:feature" cm:default="on">
       <cm:relations cm:id="i5dm5cjvYWFeJcVSz" cm:class="ps:children">
-        <cm:relation cm:id="ilbb9LJXqb0u4A2WE" cm:type="ps:optional">
+        <cm:relation cm:id="ilbb9LJXqb0u4A2WE" cm:type="ps:optional" cm:range="[0,n]">
           <cm:target cm:id="ibqzhz-citULqnDtV">./isn16zOClWx9Q8DGF</cm:target>
+          <cm:target cm:id="iYOaRJ9QqkvDggn11">./iqIleO5DxnuTXSA5G</cm:target>
+        </cm:relation>
+        <cm:relation cm:id="iqgMJoSNyPa6sLvKg" cm:type="ps:mandatory" cm:range="n">
+          <cm:target cm:id="isLcjZWhsLDIDOGSJ">./izysGnuqO13qq2AZ2</cm:target>
+          <cm:target cm:id="iLXNT1zGlMjz--hox">./iazFoekHOVUi22DgC</cm:target>
         </cm:relation>
       </cm:relations>
       <cm:properties>
@@ -36,7 +41,7 @@
           <cm:constant cm:id="iJ7EBhV5B5h_kbW75" cm:type="ps:string">Oscar</cm:constant>
         </cm:property>
         <cm:property cm:id="iWZOvvrTHOr_aJg9n" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
-          <cm:constant cm:id="iRKlsGiWU2bqfF1QJ" cm:type="ps:datetime">2017-04-09T05:41:55.063Z</cm:constant>
+          <cm:constant cm:id="iRKlsGiWU2bqfF1QJ" cm:type="ps:datetime">2017-04-22T07:58:20.265Z</cm:constant>
         </cm:property>
       </cm:properties>
     </cm:element>
@@ -46,6 +51,13 @@
       <cm:relations cm:id="i8IfZH17y3ryg6WZ9" cm:class="ps:parents">
         <cm:relation cm:id="ibjW-TRi8nykcpyIj" cm:type="ps:parent">
           <cm:target cm:id="i_Y-zuViDv0PVidFe">./iB7s3F6WOxBIITkRR</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="i4XEu3eCtRS8wlqJf" cm:class="ps:children">
+        <cm:relation cm:id="icFtVo61s_pqRBcJl" cm:type="ps:or" cm:range="[1,n]">
+          <cm:target cm:id="iH9xM5tSHJSKh7o0F">./i2el5IDE_BLmMSJCe</cm:target>
+          <cm:target cm:id="idFRc3EwavQ9lJHiJ">./iP7ABAv3GWGgxrvZd</cm:target>
+          <cm:target cm:id="iQmcoJAs-AcZn0acA">./iKeP4ufo7RSLfDZNH</cm:target>
         </cm:relation>
       </cm:relations>
       <cm:properties>
@@ -59,12 +71,378 @@
           <cm:constant cm:id="ifnDy2uci8_v1JvKR" cm:type="ps:string">Oscar</cm:constant>
         </cm:property>
         <cm:property cm:id="iNvJuXx0ZX9NgCdH6" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
-          <cm:constant cm:id="iMAx3gqnc1dUpKU2W" cm:type="ps:datetime">2017-04-09T05:47:42.801Z</cm:constant>
+          <cm:constant cm:id="iMAx3gqnc1dUpKU2W" cm:type="ps:datetime">2017-04-22T08:00:42.040Z</cm:constant>
         </cm:property>
       </cm:properties>
       <cm:vname>
         <cm:mimedesc cm:id="ioa7BRqKHnYQWUos6" cm:mimetype="text/plain" cm:encoding="utf-8">AuditTrail</cm:mimedesc>
       </cm:vname>
+    </cm:element>
+    <cm:element cm:id="izysGnuqO13qq2AZ2" cm:name="GiveChange" cm:type="ps:feature" cm:class="ps:feature" cm:default="on">
+      <cm:relations cm:id="iYQcmjDmUgCfyOIJE" cm:class="ps:parents">
+        <cm:relation cm:id="i3-wRTygI7Vp49GJb" cm:type="ps:parent">
+          <cm:target cm:id="iAOyRI6wqez4t-CT_">./iB7s3F6WOxBIITkRR</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="iDcUbTBhEVw_8MvLh" cm:class="ps:children">
+        <cm:relation cm:id="ixq0TTH_p71Mdug8i" cm:type="ps:alternative" cm:range="1">
+          <cm:target cm:id="iEXcomUTG6YDVG7p3">./iTR2fZhZemQIxpZcq</cm:target>
+          <cm:target cm:id="iZcVDx2r9moSEXpA3">./iuPc7kAuA7a_ye-dP</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iMMC9LSHWB2P9YFXE" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iqWQeyLHPi4rwEnwl" cm:type="ps:string">Oscar</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iDqqUs_Um2psuAB5C" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iRxUzd2zQXdhUmzPh" cm:type="ps:datetime">2017-04-22T07:44:35.240Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iFUQ-9sjORvov99nb" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iFsW9_xqsiB4lxort" cm:type="ps:string">Oscar</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i_wZWNj8kCI4SsOKi" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="ipzR2TTsZI10H41Dm" cm:type="ps:datetime">2017-04-22T07:46:06.223Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iTR2fZhZemQIxpZcq" cm:name="LargeDenominationFirst" cm:type="ps:feature" cm:class="ps:feature">
+      <cm:relations cm:id="iAGmQVwcEb9vuq8TN" cm:class="ps:parents">
+        <cm:relation cm:id="iMZ3A8MAAexQa1n59" cm:type="ps:parent">
+          <cm:target cm:id="i6t_Hi-j_sTJ10Otw">./izysGnuqO13qq2AZ2</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="ibAU5GY8X-8F6oZXx" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iXYxvQr5RluwyO-Rs" cm:type="ps:string">Oscar</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iHJJh-2YW9meEWRWN" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="ieL5TaYf093RZ-lqC" cm:type="ps:datetime">2017-04-22T07:45:36.521Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iogAoLoBXH0tSRkVd" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iY_vpLfDetA_ksdIV" cm:type="ps:string">Oscar</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iuVBlE_IEHF5Zdf8P" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iT4PvUwcotvwZJfxy" cm:type="ps:datetime">2017-04-22T07:45:36.521Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iuPc7kAuA7a_ye-dP" cm:name="BalancedNoOfDenomination" cm:type="ps:feature" cm:class="ps:feature" cm:default="off">
+      <cm:relations cm:id="inook19jFL_B3yxnZ" cm:class="ps:parents">
+        <cm:relation cm:id="iqefpTbPPCGnO2buc" cm:type="ps:parent">
+          <cm:target cm:id="iJpeQ90lmsuxWSdPv">./izysGnuqO13qq2AZ2</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="ihcmiiqu4xdiq1xA6" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="ipZmyw_fMcGxSV1O9" cm:type="ps:string">Oscar</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iQNnJuYARdXIliJNb" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iZGT6d5u1OVq9Qk4V" cm:type="ps:datetime">2017-04-22T07:46:06.223Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="imJ72fGPtcUzR_C-W" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iOVRup23E-P_ECkw6" cm:type="ps:string">Oscar</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iVWXYXqujwRHnF9Ts" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="ijo0wofQWc7d1FkKG" cm:type="ps:datetime">2017-04-22T07:46:06.223Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iqIleO5DxnuTXSA5G" cm:name="LowStockNotification" cm:type="ps:feature" cm:class="ps:feature">
+      <cm:relations cm:id="iMtgrWX9piwIcm2HD" cm:class="ps:parents">
+        <cm:relation cm:id="iNUMILVnvbgebjU17" cm:type="ps:parent">
+          <cm:target cm:id="isUHS5qDZV8_QO1Vt">./iB7s3F6WOxBIITkRR</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="iySoEGEej7nyHs9Wa" cm:class="ps:children">
+        <cm:relation cm:id="iPJq1mxpEPNrCFOew" cm:type="ps:mandatory" cm:range="n">
+          <cm:target cm:id="iB41dxPTK__NHvYxh">./iN8Q9us-TeaxtWxZ_</cm:target>
+          <cm:target cm:id="iXliPY7JC26kFcQEq">./i64iySzk7-Mav3fNJ</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iM1laqsTyVDfzWvvu" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iymQVkeVBDT05eW5J" cm:type="ps:string">Oscar</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i5EcQRTn3nhue_Ybu" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iAQv9Hvm-cZwvMGYP" cm:type="ps:datetime">2017-04-22T07:46:53.868Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ipDJASB06nYv0_KNp" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iDNGqaNyXbu4HcDuu" cm:type="ps:string">Oscar</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iT-xo24qN7gc1-eS-" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="ivxDVAHKOdo_8Da4u" cm:type="ps:datetime">2017-04-22T07:52:41.169Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iN8Q9us-TeaxtWxZ_" cm:name="ItemNotification" cm:type="ps:feature" cm:class="ps:feature" cm:default="on">
+      <cm:relations cm:id="ii7-vkxNMaoFdFzi6" cm:class="ps:parents">
+        <cm:relation cm:id="i4RKihRt4wGbhqOfw" cm:type="ps:parent">
+          <cm:target cm:id="iqVRS3ifAkPnrDZTf">./iqIleO5DxnuTXSA5G</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="iyLBTNp9DIrr7zqB9" cm:class="ps:children">
+        <cm:relation cm:id="i7SGM1b75nf8M_isi" cm:type="ps:or" cm:range="[1,n]">
+          <cm:target cm:id="is6Et9zNbygMPBjje">./i8Hq8KwRf9Oo6wVd2</cm:target>
+          <cm:target cm:id="iDHBoMFnMU_BkuTwo">./iGZKHPDls6rU0fDKU</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="icdjb9GS49ki93DO3" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="i8ZoQmxscXMR0h48L" cm:type="ps:string">Oscar</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iTcud4Slant1oe13b" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="ib9qUeJV_UeobIEg6" cm:type="ps:datetime">2017-04-22T07:47:12.569Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iwv303TpSWmqz0qUy" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iw-AEEhF2lUozxzyJ" cm:type="ps:string">Oscar</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iKX2okAtFFBAYCvAn" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iQtQxeufIgaVJu0Eu" cm:type="ps:datetime">2017-04-22T07:49:31.814Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="i8Hq8KwRf9Oo6wVd2" cm:name="LowCoins" cm:type="ps:feature" cm:class="ps:feature">
+      <cm:relations cm:id="insl4_jfRd37DpBTu" cm:class="ps:parents">
+        <cm:relation cm:id="iXm_Mjlfs1GsKC2AC" cm:type="ps:parent">
+          <cm:target cm:id="ifE1hfBVjMKNac7EF">./iN8Q9us-TeaxtWxZ_</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iIxIhSxfAQHwXiBdo" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iDsNgacFyjHxzcGeG" cm:type="ps:string">Oscar</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i6sBciMOXibrem6d5" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="igK25pw40QK4_1aA-" cm:type="ps:datetime">2017-04-22T07:47:28.355Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iIPNzARLq09YsZVJ_" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iY-sWYdmQyBQC2UYY" cm:type="ps:string">Oscar</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i-jErZ_sgIVJrgqQu" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iZ1p-A4L0NnAUmyXM" cm:type="ps:datetime">2017-04-22T07:47:50.146Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iGZKHPDls6rU0fDKU" cm:name="LowDrinks" cm:type="ps:feature" cm:class="ps:feature">
+      <cm:relations cm:id="irSHvckXEIELl7IN7" cm:class="ps:parents">
+        <cm:relation cm:id="i4qnv2Tiyjfo-h5i0" cm:type="ps:parent">
+          <cm:target cm:id="iLV1LJu3W3UG0l1wP">./iN8Q9us-TeaxtWxZ_</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iJJTJQi2Hvq1zmAKQ" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="i4uuxGRll9tc-Ouhg" cm:type="ps:string">Oscar</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iGB8V3Vt3l88Dfaik" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iQYffcJ60J8AU4gnx" cm:type="ps:datetime">2017-04-22T07:49:31.814Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iYEIGa437nMBuo9uw" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iFDU8mCulEgW8QFBM" cm:type="ps:string">Oscar</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iBG-d44_3NzK5F4Fe" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iglUMDE7wBSbMiELt" cm:type="ps:datetime">2017-04-22T07:49:31.814Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="i2el5IDE_BLmMSJCe" cm:name="LogItemDispensing" cm:type="ps:feature" cm:class="ps:feature" cm:default="off">
+      <cm:relations cm:id="itwlevLYfk5cIwozK" cm:class="ps:parents">
+        <cm:relation cm:id="iBWC8V26MwSNMgGGp" cm:type="ps:parent">
+          <cm:target cm:id="i1fHmbC9SrThXFo5R">./isn16zOClWx9Q8DGF</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="i5OAbK4Te8hK4gQQ7" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="icLxH2nWzD4RqU6a5" cm:type="ps:string">Oscar</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ii13TDx7fE5k_Wuad" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="i0vzgc2Vtgyf7CiNn" cm:type="ps:datetime">2017-04-22T07:51:24.118Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iEBB6JRnFQEYL-Q0k" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="ilXh3nkkQPhpemjuu" cm:type="ps:string">Oscar</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iToqYYbg1IhebUPr_" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="it_8OfcNUQmQJ0wH6" cm:type="ps:datetime">2017-04-22T07:51:24.118Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="i64iySzk7-Mav3fNJ" cm:name="NotificationChannel" cm:type="ps:feature" cm:class="ps:feature" cm:default="on">
+      <cm:relations cm:id="iA9PJvi6BUZVTggqA" cm:class="ps:parents">
+        <cm:relation cm:id="ia8clAUWF7QeVNlhn" cm:type="ps:parent">
+          <cm:target cm:id="iEegq0h_MzpemVVUe">./iqIleO5DxnuTXSA5G</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="ioqwsCGhNej6k6JTX" cm:class="ps:children">
+        <cm:relation cm:id="iFVnq4Bse-u0-6jO-" cm:type="ps:or" cm:range="[1,n]">
+          <cm:target cm:id="iHugIYFDGuhF3B9BE">./iamjFttSN60DRDqfk</cm:target>
+          <cm:target cm:id="i-4HqtDkQjN0Edppd">./ig67hHal_FqNPoOpg</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="ibL3IlnT8Edel4kxF" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="ix8OhxUvXpauBe5a4" cm:type="ps:string">Oscar</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iVDkLXeUFVvMNoTsK" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iLfWbdDeqPezfUrMy" cm:type="ps:datetime">2017-04-22T07:52:41.169Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="irha0hidE2yRDr6mr" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iD7AQGeljq851Nai6" cm:type="ps:string">Oscar</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i-vuce6nq7gTGUMqa" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iqSlbK54oZJjYGRG6" cm:type="ps:datetime">2017-04-22T07:53:29.629Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iamjFttSN60DRDqfk" cm:name="NotifyByEmail" cm:type="ps:feature" cm:class="ps:feature">
+      <cm:relations cm:id="i_GlBCJhTNu5BRcdR" cm:class="ps:parents">
+        <cm:relation cm:id="iezslQFrjN7uGP8k2" cm:type="ps:parent">
+          <cm:target cm:id="iL3tZqHp9M8fPL7vh">./i64iySzk7-Mav3fNJ</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iMjpNlrsoZH0N_tYd" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iTNx2GGj6G9oRvh1L" cm:type="ps:string">Oscar</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iFmUQo-Xw_5TK-pNW" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="immCUXc0pYYE9h8l2" cm:type="ps:datetime">2017-04-22T07:53:20.050Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i0kX_SMEWb0uR41vM" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iC_DkFp4WiGHn4loQ" cm:type="ps:string">Oscar</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i9sMt8Sgu5wFCP-q-" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iRC_NqAc8uMUERvHN" cm:type="ps:datetime">2017-04-22T07:53:20.050Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="ig67hHal_FqNPoOpg" cm:name="NotifyBySMS" cm:type="ps:feature" cm:class="ps:feature" cm:default="off">
+      <cm:relations cm:id="iov7-KXXB_Efpe3f8" cm:class="ps:parents">
+        <cm:relation cm:id="ikAlYyP_Uo2NkvCC9" cm:type="ps:parent">
+          <cm:target cm:id="i7STzC2wnkSYiwZSv">./i64iySzk7-Mav3fNJ</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="ifwLbQ5b8hpcjr0Ny" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="io-4_wN3niJ_YNaV7" cm:type="ps:string">Oscar</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ioCK5V7xO2CmFjMD9" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="icZZMXGYQryWXLXAD" cm:type="ps:datetime">2017-04-22T07:53:29.629Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iVfosCruSOYZKCXf2" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="izVf9fSpEFSOCIfFD" cm:type="ps:string">Oscar</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i-sS4XXbiv2VhAOi_" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="imnemLhRC7u1q7LzG" cm:type="ps:datetime">2017-04-22T07:53:29.629Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iazFoekHOVUi22DgC" cm:name="Language" cm:type="ps:feature" cm:class="ps:feature" cm:default="on">
+      <cm:relations cm:id="ipnVnwUkHvuUcOB3w" cm:class="ps:parents">
+        <cm:relation cm:id="i2Qh1bep9D5KL0vX_" cm:type="ps:parent">
+          <cm:target cm:id="iI6_2MHyzfdmy-6bX">./iB7s3F6WOxBIITkRR</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="iDCN24aig2fgPkG8Q" cm:class="ps:children">
+        <cm:relation cm:id="i3lpnd37QMXPYiNhd" cm:type="ps:alternative" cm:range="1">
+          <cm:target cm:id="iUFyXbnxHiEoPAntH">./ilXphErMPdbccjDBn</cm:target>
+          <cm:target cm:id="id6sZZem6PzdgLA6J">./iwuSB655Ak42_-aWv</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iLTW5XY7XaZUPh6Zk" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iTSkDhRdHysjel_JF" cm:type="ps:string">Oscar</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iatzzNc7MtQBzniJ9" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="i_m6C56hkOcbat2Lx" cm:type="ps:datetime">2017-04-22T07:58:14.600Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="il0-lVTUlZVjAezwI" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iTMNeb6CbISjS1Hkf" cm:type="ps:string">Oscar</cm:constant>
+        </cm:property>
+        <cm:property cm:id="idI4hROBtiHizBW2F" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="i_YcA6kyZh60-sGIA" cm:type="ps:datetime">2017-04-22T07:59:15.012Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="ilXphErMPdbccjDBn" cm:name="LanguageEnglish" cm:type="ps:feature" cm:class="ps:feature">
+      <cm:relations cm:id="iNxwb70SlRUgZcXPF" cm:class="ps:parents">
+        <cm:relation cm:id="i2196y2TuIsNXYqml" cm:type="ps:parent">
+          <cm:target cm:id="iu4JHsrjkAzOdogKh">./iazFoekHOVUi22DgC</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iB7Bj2Q0OQdFAg5Mh" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="ipj2ZUNVEVU-UGNst" cm:type="ps:string">Oscar</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i_FPITR0_gz7hjFmL" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iO8mPTUoImTE4_rwd" cm:type="ps:datetime">2017-04-22T07:58:54.127Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iDxn2KDNzDgU-c-_O" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iMysYDW2s66VXDUE-" cm:type="ps:string">Oscar</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iDptwBeI4FLzkwLPc" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iOo0AgfE0kU7tgQTN" cm:type="ps:datetime">2017-04-22T07:58:54.127Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iwuSB655Ak42_-aWv" cm:name="LanguageSpanish" cm:type="ps:feature" cm:class="ps:feature" cm:default="off">
+      <cm:relations cm:id="iOzi53BBpVub6zk7A" cm:class="ps:parents">
+        <cm:relation cm:id="iDc4RkeC9i42aOU3v" cm:type="ps:parent">
+          <cm:target cm:id="iAGqgZR3AVt-_65hY">./iazFoekHOVUi22DgC</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="i7ayg5TlZBrTDibwv" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iPrzX5RMnpE4ET0LX" cm:type="ps:string">Oscar</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ikjbQCT8K5xgXl-vt" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="ihiI4zjmtoa6T9XDG" cm:type="ps:datetime">2017-04-22T07:59:15.012Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iBDMvYM2DXjUc2YgL" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="irE15Iwaogrirn2aM" cm:type="ps:string">Oscar</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i3CLRFVTxSzTW_zHx" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="ijJmdVAt-I0XmlH_R" cm:type="ps:datetime">2017-04-22T07:59:15.012Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iP7ABAv3GWGgxrvZd" cm:name="LogPayment" cm:type="ps:feature" cm:class="ps:feature">
+      <cm:relations cm:id="iNmemWAkDM1FKVxkF" cm:class="ps:parents">
+        <cm:relation cm:id="i0Z0qx09uUPIJTWOh" cm:type="ps:parent">
+          <cm:target cm:id="idN0ykas_ZQ7oPMiw">./isn16zOClWx9Q8DGF</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="ij7a81g5vBl05_5uy" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="isRzcMiFvbAnT_K2r" cm:type="ps:string">Oscar</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iQoP2aENS9k3uWoqE" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iXgX6k0yLu3QpwDdk" cm:type="ps:datetime">2017-04-22T07:59:50.959Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ipkS10CrIRSdkT9D_" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="i_ajAWT_BkX4uaS4b" cm:type="ps:string">Oscar</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ireGgdEO1AUfPeXoe" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iObpj79WkjiFuodB2" cm:type="ps:datetime">2017-04-22T07:59:50.959Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iKeP4ufo7RSLfDZNH" cm:name="LogTransferAllCash" cm:type="ps:feature" cm:class="ps:feature" cm:default="off">
+      <cm:relations cm:id="iKBl1j577DaFen3gg" cm:class="ps:parents">
+        <cm:relation cm:id="ip8rvnIsVb9A0owdx" cm:type="ps:parent">
+          <cm:target cm:id="iDtifGD5enirlb4vE">./isn16zOClWx9Q8DGF</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="ieUM24RpPRtkPkdf7" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="ihgh6uNbnVfQ-mql8" cm:type="ps:string">Oscar</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iGMZJWImnbzWC0VKI" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iYXpqQ2tGuMm8PtuM" cm:type="ps:datetime">2017-04-22T08:00:42.040Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iciM8UjOlqMr5IGM9" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="idBKQRo_GxT5iik28" cm:type="ps:string">Oscar</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iIupgcZv7-Hji6D0m" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="i01xTxt923W2MsYXm" cm:type="ps:datetime">2017-04-22T08:00:42.040Z</cm:constant>
+        </cm:property>
+      </cm:properties>
     </cm:element>
   </cm:elements>
 </cm:consulmodel>
